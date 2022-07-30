@@ -1,5 +1,7 @@
 import './App.css';
 import Header from './Header'
+import Button from "react-bootstrap/Button";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function MainContent() {
     return (
         <div>
             <h1>好宝宝Crystal</h1>
+            <Button>Button</Button>
         </div>
     )
 }
