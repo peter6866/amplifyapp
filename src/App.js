@@ -1,31 +1,15 @@
 import './App.css';
-import Header from './Header'
-import Button from "react-bootstrap/Button";
+import Header from './components/Navbar'
+import Main from './components/Main'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-      <div className="App">
+      <div>
           <Header />
-          <MainContent />
-          <Footer />
+          <Main />
       </div>
   );
-}
-
-function Footer() {
-    return (
-        <footer>2022</footer>
-    )
-}
-
-function MainContent() {
-    return (
-        <div>
-            <h1>好宝宝Crystal</h1>
-            <Button>Button</Button>
-        </div>
-    )
 }
 
 export default App;
